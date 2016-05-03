@@ -1,0 +1,7 @@
+<apex:page Controller="AuthClient" action="{!validateOAuthBase}">
+    <apex:form >
+        <apex:outputLabel >Please select environment type</apex:outputLabel>
+        
+        <apex:commandButton value="OAuth" action="{!validateOAuthBase}"></apex:commandButton>
+    </apex:form>
+</apex:page>

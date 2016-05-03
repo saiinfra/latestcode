@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>MetadataLog</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>MetadataLog</value>
+    </caseValues>
+    <fields>
+        <label><!-- Action --></label>
+        <name>Action__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deploy</masterLabel>
+            <translation><!-- Deploy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GetPackages</masterLabel>
+            <translation><!-- GetPackages --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>InActive</masterLabel>
+            <translation><!-- InActive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retrieve</masterLabel>
+            <translation><!-- Retrieve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UpdatePackages</masterLabel>
+            <translation><!-- UpdatePackages --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- BaseOrgId --></label>
+        <name>BaseOrgId__c</name>
+    </fields>
+    <fields>
+        <label><!-- BaseOrgRefreshToken --></label>
+        <name>BaseOrgRefreshToken__c</name>
+    </fields>
+    <fields>
+        <label><!-- BaseOrgToken --></label>
+        <name>BaseOrgToken__c</name>
+    </fields>
+    <fields>
+        <label><!-- BaseOrgUrl --></label>
+        <name>BaseOrgUrl__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error Message --></label>
+        <name>Error_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID --></label>
+        <name>ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- OrganizationId --></label>
+        <name>OrganizationId__c</name>
+    </fields>
+    <fields>
+        <label><!-- RecordId --></label>
+        <name>RecordId__c</name>
+    </fields>
+    <fields>
+        <label><!-- ReleaseEnvironment --></label>
+        <name>ReleaseEnvironment__c</name>
+        <relationshipLabel><!-- MetadataLog --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Releases --></label>
+        <name>Releases__c</name>
+        <relationshipLabel><!-- MetadataLog --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- SourceOrgRefreshToken --></label>
+        <name>SourceOrgRefreshToken__c</name>
+    </fields>
+    <fields>
+        <label><!-- SourceOrgToken --></label>
+        <name>SourceOrgToken__c</name>
+    </fields>
+    <fields>
+        <label><!-- SourceOrganizationURL --></label>
+        <name>SourceOrganizationURL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation><!-- Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- TargetOrgRefreshToken --></label>
+        <name>TargetOrgRefreshToken__c</name>
+    </fields>
+    <fields>
+        <label><!-- TargetOrgTokenNonEncrypted --></label>
+        <name>TargetOrgTokenNonEncrypted__c</name>
+    </fields>
+    <fields>
+        <label><!-- TargetOrgToken --></label>
+        <name>TargetOrgToken__c</name>
+    </fields>
+    <layouts>
+        <layout>MetadataLog Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

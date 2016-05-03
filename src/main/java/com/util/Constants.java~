@@ -1,0 +1,123 @@
+package com.util;
+
+public class Constants {
+
+	public static final String ACCESS_TOKEN = "ACCESS_TOKEN";
+	public static final String REFRESH_TOKEN = "REFRESH_TOKEN";
+	public static final String INSTANCE_URL = "INSTANCE_URL";
+	public static final String ID_URL = "ID_URL";
+	public static final String TOKEN_FILE_PATH = "TOKEN_FILE_PATH";
+	public static final String SFHomeUrl = "/home/home.jsp";
+
+	public static final String LoginEnv = "https://login.salesforce.com";
+	public static final String TestEnv = "https://test.salesforce.com";
+
+	public static String DeployedAppName = "SFSOAPWS";
+
+	public static String consumerSecret = "3817318800271280941";
+	public static String queryString = "/services/data/v20.0/query";
+	public static String BaseOrgName = "BaseOrg";
+
+	public static String BaseOrgTokenCode = "TokenCode";
+	public static String BaseOrgServerURL = "ServerURL";
+	public static String BaseOrgRefreshTokenCode = "RefreshTokenCode";
+	public static String BaseOrgBaseOrganizationId = "BaseOrganizationId";
+
+	public static String BaseOrgToken = "BaseOrgToken";
+	public static String AuthorizationCode = "";
+	public static String token_type = "Bearer";
+	public static final String API_VERSION = "33.0";
+
+	public static final String[] SFTypes = { "ApexClass", "ApexComponent", "ApexPage", "ApexTrigger", "AppMenu",
+			"AssignmentRule", "AssignmentRules", "AutoResponseRules", "Community", "CustomApplication", "CustomField",
+			"CustomLabel", "CustomLabels", "CustomObject", "CustomObjectTranslation", "CustomTab", "Dashboard",
+			"Document", "EmailTemplate", "EscalationRule", "EscalationRules", "HomePageLayout", "Layout", "ListView",
+			"MatchingRules", "MatchingRules", "Profile", "PermissionSet", "QuickAction", "RemoteSiteSetting", "Report",
+			"ReportType", "Role", "Settings", "SharingRules", "StaticResource", "WebLink", "SharingSet",
+			"CustomPageWebLink", "Workflow", "Queue", "ApprovalProcess", "ActionLinkGroupTemplate", "CompactLayout",
+			"ConnectedApp", "CustomApplicationComponent", "CustomMetadata", "CustomPermission", "CustomSite",
+			"FieldSet", "RecordType", "ValidationRule", "AuthProvider", "PostTemplate", "WorkflowFieldUpdate",
+			"WorkflowRule", "WorkflowTask", "WorkflowOutboundMessage" ,"WorkflowAlert"};
+
+	public static String userId="skrishna@developertest.com";
+	public static String passwd="infrascape4YKyRvo9lxSLmmr20xAQ72zhI";
+	public static String serverURL="https://na34.salesforce.com";
+	
+	public static String base_username = "ikhan@infrascape.com";
+	public static String base_password = "infrascape3" + "cMN0SHllSbM6ireqkDbL7W3Qx";
+
+	public static String target_username = "skrishna@infrascape.com.copdesti";
+	public static String target_password = "infrascape3" + "1Ms5Ri5SwMLulCF60uFJMO0Z";
+
+	public static String target3_username = "skrishna@desticorp2.com.com";
+	public static String target3_password = "infrascape4" + "G8ksxsN26GySSdYYMH0a05cF";
+	public static String target2_username = "skrishna@desticorp2.com.com";
+	public static String target2_password = "infrascape4" + "BNsc0IwBaduT5Qryw5G4SIulL";
+
+	public static final String SUCESS_MESSAGE = "MetadataLog record is sucessfully updated";
+	public static final String Package_FileName = "package.xml";
+	public static final String Component_Zip_FileName = "components.zip";
+	public static final String ERROR_STATUS = "Error";
+	public static final String PROCESSING_STATUS = "In-Progress";
+	public static final String COMPLETED_STATUS = "Completed";
+	public static final String RETRIEVE_SUCESS_MESSAGE = "Retrieve request sucessfully processed";
+	public static final String DEPLOY_SUCESS_MESSAGE = "Deploy request sucessfully processed";
+	public static final String SUCCESFULLY_STATUS = "sucessfully completed";
+	public static final String SUCCES_STATUS = "success";
+	public static final String FAILURE_STATUS = "failure";
+	public static final String INITIATED_STATUS = "initiated";
+	public static final String Retrieve_CSV_File = "retreive.csv";
+	public static final String MetadataDescription_Name = "OFSServer__MetadataDescription__c";
+	public static final String MetadataDescriptionInformation_Name = "OFSServer_MetadataDescriptionInformation__c";
+	public static int ChunkSize = 8000;
+	public static int waitFor2Sec = 2000;
+	public static int waitFor1Sec = 1000;
+	public static String BaseOrgClientID = "3MVG9fMtCkV6eLhckipcGtsdEsbYJXSOdJrdCVqxaLEyjnLDaPGLekViuBqlQJcWVyZodXI42r34WH9F5wexo";
+	public static String BaseOrgClientSecret = "1673914982220759042";
+	public static String CustomOrgClientID = "3MVG9fMtCkV6eLhckipcGtsdEsXpvuj0tgLP6bJJYaFcdwyUC5dmSJ.Oi2e6vkHAZMrNBY6k8y9Qf.QWFahCK";
+	public static String CustomOrgClientSecret = "7048969593420516911";
+	public static String CustomBaseOrgClientID = "3MVG9fMtCkV6eLhckipcGtsdEsZqXGXSs976uKfivATtaFl6rhaqwmMvzgd26NEEvc3wpiPBjxaMR2s3ITjsa";
+	public static String CustomBaseOrgClientSecret = "4904334507055360250";
+	public static String CustomNonOrgClientID = "'3MVG9fMtCkV6eLhckipcGtsdEsT_8gl4HnWkfcmcXxX6buP7x9O4StuXvKu6ET9hySt_35GbOOob2kfjtaMSB";
+	public static String CustomNonOrgClientSecret = "4246984817416806707";
+	public static String BaseOrgID = "0";
+	public static String CustomOrgID = "1";
+	public static String CustomBaseOrgID = "2";
+	public static String CustomClientOrgID="3";
+	
+	public static String BaseOrgTypeID = "0";
+	public static String CustomOrgTypeID = "1";
+	public static String CustomBaseOrgTypeID = "2";
+
+	public static String Token_URL = "/services/oauth2/token";
+
+	public static String DEPLOY_REQ = "DEPLOYREQ";
+	public static String RETRIEVE_REQ = "RETRIEVEREQ";
+	public static final String RELEASE_STATUS_ACTIVE = "Active";
+	public static final String RELEASE_STATUS_INACTIVE = "InActive";
+	public static final String RELEASE_COMPLETED_STATUS = "Completed";
+	public static final String ACTION_GETPACKAGES = "GetPackages";
+	public static final String ACTION_DEPLOY = "Deploy";
+	public static final String ACTION_RETRIEVE = "Retrieve";
+	public static final String ACTION_UPDATEPACKAGES = "UpdatePackages";
+	public static final String SUBMIT_FOR_APPROVAL = "Commit";
+	public static final String TEST_AUTOMATION_ACTION = "ExecuteScript";
+	public static final String jspURL = "secur/frontdoor.jsp";
+
+	public static String SALESFORCE_CLIENT_PKG = "SFClientPkg";
+	public static String SALESFORCE_SERVER_PKG = "SFServerPkg";
+	
+
+	public static String SF_REPO_CLIENT_PKG = "SfClientPkgs";
+	public static String SF_REPO_SERVER_PKG = "SfServerPkgs";
+	public static String SF_REPO_TEST_PKG = "mypkg";
+	public static String SF_REPO_CODE_PKG = "codepkg";
+	public static String SF_Config_File = "sfconfig.properties";
+	
+	public static String CLIENT = "client";
+	public static String SERVER = "server";
+	public static String SFClientSelfAuthType = "Self";
+	public static String SFClientServerAuthType = "Server";
+public static String testsri = "testsri";
+
+}

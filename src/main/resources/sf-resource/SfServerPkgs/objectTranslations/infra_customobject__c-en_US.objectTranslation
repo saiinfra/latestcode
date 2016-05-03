@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>infra-customobject</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>infra-customobject</value>
+    </caseValues>
+    <fields>
+        <label><!-- Infra_Custom_ FieldAndRelationship --></label>
+        <name>Infra_Custom_FieldAndRelationship__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Infra_Roletype --></label>
+        <name>Infra_Roletype</name>
+    </recordTypes>
+    <sharingReasons>
+        <label><!-- Infra_Sharing_Reasons --></label>
+        <name>Infra_Sharing_Reasons</name>
+    </sharingReasons>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- 1 --></errorMessage>
+        <name>Infra_Validation_Rule</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- infra_Button_and_Link --></label>
+        <name>infra_Button_and_Link</name>
+    </webLinks>
+</CustomObjectTranslation>

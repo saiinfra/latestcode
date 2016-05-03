@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <endpoints xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime" version="2.0"> 
+	<endpoint name="WebServiceImpl" implementation="com.test.WebServiceImpl" 
+	url-pattern="/cop" /> </endpoints> -->
+
+<endpoints xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime"
+	version="2.0">
+	<endpoint name="SFSoapRetrieveImpl" implementation="com.webservices.SFSoapRetrieveImpl"
+		url-pattern="/retrieve" />
+	<endpoint name="SFSoapDeployImpl" implementation="com.webservices.SFSoapDeployImpl"
+		url-pattern="/deploy" />
+	<endpoint name="SFServerMetadatalogRequestsImpl" implementation="com.webservices.SFServerMetadatalogRequestsImpl"
+		url-pattern="/releaseSync" />
+	<endpoint name="SFClientMetalogInformationRequestsImpl" implementation="com.webservices.SFClientMetalogInformationRequestsImpl"
+		url-pattern="/retrieveclient" />
+	<endpoint name="SFSoapUpdatePackagesImpl" implementation="com.webservices.SFSoapUpdatePackagesImpl"
+		url-pattern="/updatePackage" />
+	<endpoint name="SFTestAutomationRequestImpl" implementation="com.webservices.SFTestAutomationRequestImpl"
+		url-pattern="/testingautomation" />
+		
+		
+		</endpoints>

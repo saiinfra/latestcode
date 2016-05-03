@@ -1,0 +1,7 @@
+<apex:page extensions="Auth" standardController="Enviroment__c" action="{!validateOAuth2}">
+    <apex:form >
+        <apex:outputLabel >Display</apex:outputLabel>
+        <apex:inputField value="{!Enviroment__c.Type__c}"/>
+        <!-- <apex:commandButton value="Test1" action="{!validateOAuth12}"></apex:commandButton>  -->
+    </apex:form>
+</apex:page>

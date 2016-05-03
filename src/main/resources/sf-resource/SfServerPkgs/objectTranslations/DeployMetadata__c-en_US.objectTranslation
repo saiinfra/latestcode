@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>DeployMetadata</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>DeployMetadata</value>
+    </caseValues>
+    <fields>
+        <label><!-- DeployedDateTime --></label>
+        <name>DeployedDateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- MetadataLog --></label>
+        <name>MetadataLog__c</name>
+        <relationshipLabel><!-- Metadata Log --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- OrganizationId --></label>
+        <name>OrganizationId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Package --></label>
+        <name>Package__c</name>
+        <relationshipLabel><!-- DeployMetadata --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Release --></label>
+        <name>Release__c</name>
+        <relationshipLabel><!-- DeployMetadata --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RequestedDateTime --></label>
+        <name>RequestedDateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- SourceOrganizationId --></label>
+        <name>SourceOrganizationId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>AppMenu</masterLabel>
+            <translation><!-- AppMenu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AssignmentRules</masterLabel>
+            <translation><!-- AssignmentRules --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AutoResponseRule</masterLabel>
+            <translation><!-- AutoResponseRule --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CustomApplication</masterLabel>
+            <translation><!-- CustomApplication --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CustomField</masterLabel>
+            <translation><!-- CustomField --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CustomLabels</masterLabel>
+            <translation><!-- CustomLabels --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CustomObject</masterLabel>
+            <translation><!-- CustomObject --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EscalationRule</masterLabel>
+            <translation><!-- EscalationRule --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HomePageLayout</masterLabel>
+            <translation><!-- HomePageLayout --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Layout</masterLabel>
+            <translation><!-- Layout --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ListView</masterLabel>
+            <translation><!-- ListView --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Profile</masterLabel>
+            <translation><!-- Profile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QuickAction</masterLabel>
+            <translation><!-- QuickAction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RemoteSiteSetting</masterLabel>
+            <translation><!-- RemoteSiteSetting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Report</masterLabel>
+            <translation><!-- Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Role</masterLabel>
+            <translation><!-- Role --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Settings</masterLabel>
+            <translation><!-- Settings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WebLink</masterLabel>
+            <translation><!-- WebLink --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workflow</masterLabel>
+            <translation><!-- Workflow --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>DeployMetadata Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,28 @@
+
+
+#client Related Settings
+baseclientclientId =3MVG9fMtCkV6eLhckipcGtsdEsZqXGXSs976uKfivATtaFl6rhaqwmMvzgd26NEEvc3wpiPBjxaMR2s3ITjsa
+baseclientclientSecret= 4904334507055360250
+baseclientredirectUri= https://sfinfraws.herokuapp.com/baseoauthclientservlet/callback
+baseclientenvironment=https://login.salesforce.com
+
+#server base related settings
+baseclientId =3MVG9fMtCkV6eLhckipcGtsdEsbYJXSOdJrdCVqxaLEyjnLDaPGLekViuBqlQJcWVyZodXI42r34WH9F5wexo
+baseclientSecret= 1673914982220759042
+baseredirectUri= https://sfinfraws.herokuapp.com/baseoauthservlet/callback
+baseenvironment=https://login.salesforce.com
+
+#server non base related settings
+nonbaseclientId =3MVG9fMtCkV6eLhckipcGtsdEsXpvuj0tgLP6bJJYaFcdwyUC5dmSJ.Oi2e6vkHAZMrNBY6k8y9Qf.QWFahCK
+nonbaseclientSecret= 7048969593420516911
+nonbaseredirectUri= https://sfinfraws.herokuapp.com/OAuthServlet/callback
+nonbaseenvironment=https://login.salesforce.com
+
+#client Related Settings
+nonbaseclientclientId =3MVG9fMtCkV6eLhckipcGtsdEsZqXGXSs976uKfivATtaFl6rhaqwmMvzgd26NEEvc3wpiPBjxaMR2s3ITjsa
+nonbaseclientclientSecret= 4904334507055360250
+nonbaseclientredirectUri= https://sfinfraws.herokuapp.com/OAuthClientServlet/callback
+nonbaseclientenvironment=https://login.salesforce.com
+
+
+

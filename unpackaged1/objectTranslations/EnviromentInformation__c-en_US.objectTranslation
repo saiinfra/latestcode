@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Trusted Environment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Trusted Environments</value>
+    </caseValues>
+    <fields>
+        <label><!-- Auth Type --></label>
+        <name>Auth_Type__c</name>
+        <picklistValues>
+            <masterLabel>Self</masterLabel>
+            <translation><!-- Self --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Server</masterLabel>
+            <translation><!-- Server --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Org ID --></label>
+        <name>Org_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- OrganizationId --></label>
+        <name>OrganizationId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Password --></label>
+        <name>Password__c</name>
+    </fields>
+    <fields>
+        <label><!-- RefreshTokenCode --></label>
+        <name>RefreshTokenCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Server URL --></label>
+        <name>Server_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- TokenCodeNonEncrypted --></label>
+        <name>TokenCodeNonEncrypted__c</name>
+    </fields>
+    <fields>
+        <label><!-- TokenCode --></label>
+        <name>TokenCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Production/Developer</masterLabel>
+            <translation><!-- Production/Developer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sandbox</masterLabel>
+            <translation><!-- Sandbox --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- User Name --></label>
+        <name>User_Name__c</name>
+    </fields>
+    <layouts>
+        <layout>EnviromentInformation Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
